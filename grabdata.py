@@ -7,3 +7,4 @@ data = np.genfromtxt("testdata.csv", delimiter=',', dtype=mydtype)
 plt.plot(data['f0'], data['f1'])
 
 plt.show()
+# worked!

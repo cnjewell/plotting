@@ -46,3 +46,10 @@ Plot the levels across time for that slice of records
 MOCKUP
 mess > csv > sql3 > query > plot
 
++ convert the messy data to a csv 
++ take each line of the csv and iteratively place the data into a sql3 db
++ devise queries that can select by datetime, day, hour, etc.
++ take query returns and format into plottable data structures
+
+
+
