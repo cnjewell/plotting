@@ -52,4 +52,8 @@ mess > csv > sql3 > query > plot
 + take query returns and format into plottable data structures
 
 
-
+tomorrow
+  run cleaner to get a clean csv
+  adapt dbinit.py to load up clean csv in a db
+  run test queries against db
+  plot away!
