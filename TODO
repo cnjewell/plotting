@@ -1,0 +1,52 @@
+AT WORK
+*******
+
+clean up messy data
+pull apart levels from datetime
+
+
+AT HOME
+*******
+generate a small test dataset with [datetime, levels]
+find how to grab records by
+	week, hour, day
+
+query data set
+
+QUESTIONS AND GOALS
+*******************
+plot worker levels across a day
+plot average worker levels across many days
+
+find variability in worker demand
+find peak hours
+find weekly variations in demand
+measure worker valleys and spikes
+
+gauge minimum required workers to trigger provisioner
+
+The problem is how fast can we get the next 18+ workers up and running once some critical threshold point has been reached? Davidson says approx 5-8mins for the instance to launch and load the neural net into memory. So if worker levels have been declining at a rate that is faster than...
+
+No, need to stop overthinking this. 
+
+Simple, straightforward solution:
+Once worker levels are below 10, launch an instance.
+  There should be a blocking cooldown state for this trigger
+If we are at peak hours, make sure we have 3 instances available.
+Just hardcode a schedule for now. 
+Scheduled worker launches works well with the structure we have already.
+
+So, for now I can just crunch numbers and visualize levels.
+
+********************
+Take a dataset where you have consecutive datatimes and levels data
+Grab just the records where the data is between two dates
+Plot the levels across time for that slice of records
+
+MOCKUP
+Generate fake levels with randint()+40
+Generate fake datetimes with incrementing times and dates
+Grab a slice where the date is between two dates
+Then just plot it
+
+ 
