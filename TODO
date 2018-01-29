@@ -44,9 +44,5 @@ Grab just the records where the data is between two dates
 Plot the levels across time for that slice of records
 
 MOCKUP
-Generate fake levels with randint()+40
-Generate fake datetimes with incrementing times and dates
-Grab a slice where the date is between two dates
-Then just plot it
+mess > csv > sql3 > query > plot
 
- 
